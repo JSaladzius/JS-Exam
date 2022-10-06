@@ -52,6 +52,18 @@ form {
   color: #fff;
 }
 
+#submit-btn:active{
+  background-color: rgb(176, 176, 176);
+  color: #000;
+}
+
+#output{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .headline {
@@ -63,3 +75,5 @@ form {
     font-size: 2em;
   }
 }
+
+
