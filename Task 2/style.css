@@ -39,6 +39,10 @@
   background-color: rgb(59, 59, 59);
 }
 
+#btn__element:active {
+  background-color: rgb(25, 25, 25);
+}
+
 #btn__state {
   width: 25%;
   padding: 15px 25px;
