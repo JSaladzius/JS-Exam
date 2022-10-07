@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
@@ -55,7 +55,60 @@
 .output-cointainer #output {
   width: 80%;
   margin-top: 25px;
-  padding: 30px;
+  padding: 20px 10px;
   border-radius: 5px;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
+
+.cardBox {
+  width: 90%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: solid grey 1px;
+  border-radius: 0.3rem;
+}
+
+.avatar {
+  width: 90%;
+  border-radius: 00.3rem;
+}
+.userName {
+  font-size: large;
+  word-wrap: break-word;
+}
+
+/* media queries */
+@media screen and (min-width: 355px) {
+  .cardBox {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cardBox {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .cardBox {
+    width: 22%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cardBox {
+    width: 17%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cardBox {
+    width: 15%;
+  }
+}
+
