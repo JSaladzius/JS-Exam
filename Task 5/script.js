@@ -23,14 +23,13 @@ const users = [
 /**1. funkcija "filterDogOwners" */
 
 function filterDogOwners() {
-  console.log(users.filter((user) => (user.hasDog ? user : false)));
+  return users.filter((user) => (user.hasDog ? user : false));
 }
-filterDogOwners();
-
+console.log(filterDogOwners());
 
 /**2. funkcija "filterAdults" */
 
 // function filterAdults() {
-//   console.log(users.filter((user) => (user.age >= 18 ? user : false)));
+//   return users.filter((user) => (user.age >= 18 ? user : false));
 // }
-// filterAdults();
+// console.log(filterAdults());

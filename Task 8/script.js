@@ -11,21 +11,21 @@ function Calculator(a, b) {
   this.b = b;
   console.log("Results are:");
   this.sum = function () {
-    console.log(`Sum:` + ` ` + `${this.a + this.b}`);
+    return `Sum:` + ` ` + `${this.a + this.b}`;
   };
   this.subtraction = function () {
-    console.log(`Difference:` + ` ` + `${this.a - this.b}`);
+    return `Difference:` + ` ` + `${this.a - this.b}`;
   };
   this.multiplication = function () {
-    console.log(`Product:` + ` ` + `${this.a * this.b}`);
+    return `Product:` + ` ` + `${this.a * this.b}`;
   };
   this.division = function () {
-    console.log(`Quotient:` + ` ` + `${this.a / this.b}`);
+    return `Quotient:` + ` ` + `${this.a / this.b}`;
   };
 }
 
 const numbers = new Calculator(2, 2);
-numbers.sum();
-numbers.subtraction();
-numbers.multiplication();
-numbers.division();
+console.log(numbers.sum());
+console.log(numbers.subtraction());
+console.log(numbers.multiplication());
+console.log(numbers.division());

@@ -21,12 +21,8 @@ class Movie {
   }
 }
 
-const movie_1 = new Movie("Sunshine", "Danny Boyle", 26000000);
-const movie_2 = new Movie(
-  "28 Weeks Later",
-  "Juan Carlos Fresnadillo",
-  150000000
-);
+const movie_1 = new Movie ("Sunshine", "Danny Boyle", 26000000);
+const movie_2 = new Movie ("28 Weeks Later","Juan Carlos Fresnadillo",150000000);
 
 console.log(movie_1.wasExpensive());
 console.log(movie_2.wasExpensive());
