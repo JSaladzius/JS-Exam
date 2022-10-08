@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(129, 129, 129);
+  background-color: rgb(61, 61, 61);
 }
 
 .container h1 {
@@ -30,7 +30,7 @@
   font-size: x-large;
   padding: 1rem;
   border-radius: 0.1rem;
-  text-shadow: 3px 3px 10px lightblue;
+  text-shadow: 3px 3px 10px rgb(124, 201, 227);
 }
 
 #output {
@@ -42,7 +42,7 @@
   row-gap: 1rem;
   width: 95%;
   background-color: transparent;
-  border: double lightblue;
+  border: double rgb(124, 201, 227);
   padding: 2rem 0 2rem 0;
 }
 
@@ -52,7 +52,7 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  background-color: rgb(129, 129, 129);
+  background-color: rgb(64, 64, 64);
   box-shadow: 0rem 0rem 0.5rem 0.05rem lightblue;
   color: rgb(212, 212, 212);
 }
