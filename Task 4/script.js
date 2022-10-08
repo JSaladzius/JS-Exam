@@ -21,7 +21,6 @@ getCars();
 function renderCars(cars) {
   const output = document.getElementById("output");
   output.innerHTML = "";
-  console.log(cars);
 
   cars.forEach((maker) => {
     const brandBox = document.createElement("div");
@@ -29,9 +28,8 @@ function renderCars(cars) {
     const brandName = document.createElement("h2");
     brandName.className = "brandName";
     brandName.innerText = maker.brand;
-    const carList = document.createElement("ol");
+    const carList = document.createElement("ul");
     carList.className = "carList";
-    console.log(maker.models);
     const models = maker.models;
 
     models.forEach((model) => {

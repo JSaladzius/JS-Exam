@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
@@ -21,9 +21,120 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(129, 129, 129);
 }
 
 .container h1 {
-  margin-top: 50px;
-  color: #333;
+  margin: 50px 20px 25px 10px;
+  color: rgb(221, 221, 221);
+  font-size: x-large;
+  padding: 1rem;
+  border-radius: 0.1rem;
+  text-shadow: 3px 3px 10px lightblue;
+}
+
+#output {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2.5rem;
+  row-gap: 1rem;
+  width: 95%;
+  background-color: transparent;
+  border: double lightblue;
+  padding: 2rem 0 2rem 0;
+}
+
+.brandBox {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgb(129, 129, 129);
+  box-shadow: 0rem 0rem 0.5rem 0.05rem lightblue;
+  color: rgb(212, 212, 212);
+}
+
+.brandName {
+  align-self: flex-start;
+  margin: 0 10px 10px 0;
+  font-size: large;
+}
+.carList {
+  font-size: small;
+}
+
+/*Media queries  */
+
+@media screen and (min-width: 355px) {
+  #output {
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .brandBox {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #output {
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .brandBox {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .container h1 {
+    font-size: xx-large;
+  }
+
+  #output {
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .brandBox {
+    width: 23%;
+  }
+
+  .brandName {
+    font-size: x-large;
+  }
+  .carList {
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #output {
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .brandBox {
+    width: 18%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #output {
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .brandBox {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  #output {
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .brandBox {
+    width: 12%;
+  }
 }
